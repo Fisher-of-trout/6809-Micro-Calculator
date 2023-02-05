@@ -11,3 +11,4 @@ Latches are required since adress and data tristate outputs turn off when proces
 Each value for the calculator display is latched with a 4 bit  74HC173 , and each digit multiplexed .
 Digits are decoded with 74ls47 ic, and a 4 digits common anode display was used.
 Keypad decode using a 74C923 ic and data available is pulsed to the interupt input of the 6809.
+The whole Board is Wired Wrapped.
